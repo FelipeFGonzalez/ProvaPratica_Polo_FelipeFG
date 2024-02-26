@@ -56,7 +56,7 @@
 
         </Grid>
 
-        <DataGrid Grid.Row="1" Margin ="0 15 0 0" x:Name="dgIndicadores" ItemsSource="{Binding Indicadores}" IsReadOnly="True" Width="auto">
+        <DataGrid Grid.Row="1" Margin ="0 15 0 0" x:Name="dgIndicadores" ItemsSource="{Binding Indicadores}" IsReadOnly="True" Width="auto" MaxWidth="800">
             
         </DataGrid>
 
