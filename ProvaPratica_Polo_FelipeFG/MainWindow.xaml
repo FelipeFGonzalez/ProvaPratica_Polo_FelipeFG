@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProvaPratica_Polo_FelipeFG" xmlns:view="clr-namespace:ProvaPratica_Polo_FelipeFG.View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="820">
+        Title="MainWindow" Height="450" Width="840">
     <Grid Margin="20 20">
         <view:MainView DataContext="{Binding Current}"/>
     </Grid>
